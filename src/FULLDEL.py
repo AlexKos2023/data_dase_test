@@ -1,6 +1,6 @@
 import psycopg2
 
-PASSW = 'Vostok72'
+PASSW = input('Пароль:  ')
 
 conn = psycopg2.connect(
     dbname='authdb',
